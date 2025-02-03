@@ -1,0 +1,135 @@
+.form-block {
+    padding: 225px 0;
+    background-color: #0A61F7;
+
+    // .form-block__inner
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    // .form-block__content
+
+    &__content {}
+
+    // .form-block__list-title
+
+    &__list-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+
+    // .form-block__list
+
+    &__list {
+        margin-bottom: 52px;
+    }
+
+    // .form-block__item
+
+    &__item {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+
+    // .form-block__quotes
+
+    &__quotes {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 123%;
+        color: #fff;
+        margin-bottom: 29px;
+    }
+
+    // .form-block__author
+
+    &__author {
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: #fff;
+        margin-bottom: 66px;
+
+    }
+
+    // .form-block__main-form
+
+    &__main-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        background-color: #fff;
+
+    }
+
+    // .form-block__form
+
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 32px;
+    }
+
+    // .form-block__input
+
+    &__input {
+        padding: 13px 16px;
+        max-width: 200px;
+        border-radius: 4px;
+    }
+
+    &__ceo-photos{
+        display: flex;
+        gap: 16px
+    }
+}
+
+.container {}
+
+.subtitle {}
+
+.title {}
+
+.button {}
+
+.form-block--title{
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 123%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 32px;
+    
+}
+.form-block--subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.form-block__main-form--subtitle{
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 123%;
+    color: #1c202b;
+}
+.form-block__button{
+    padding: 19px 30px; 
+}
+

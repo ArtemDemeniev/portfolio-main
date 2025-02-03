@@ -1,0 +1,231 @@
+/* 📌 Десктопы (большие экраны) */
+@media (max-width: 1440px) {
+
+    /* Стили для экранов до 1440px */
+}
+
+/* 📌 Ноутбуки, небольшие десктопы */
+@media (max-width: 1280px) {
+    /* Стили для экранов до 1280px */
+}
+@media (max-width: 1100px) {
+    .tabs__box {
+            max-width: 100%;
+            overflow-x: scroll;
+            flex-direction: row;
+    
+        }
+    
+        .tabs__content-wrapper {
+            width: 100%;
+        }
+    
+        .tabs__content {
+            margin: auto;
+            width: 100%;
+        }
+    
+        .tabs__bottom {
+            position: absolute;
+            left: 50%;
+            width: 100vw;
+            transform: translate(-50%);
+            text-align: center;
+        }
+        .tabs__content .tab-img{
+            object-fit: cover;
+        }
+.tabs__content--active{
+    background-size: cover;
+}
+}
+
+/* 📌 Планшеты в горизонтальной ориентации */
+@media (max-width: 1024px) {
+.hero .bg1,
+    .hero .bg2,
+    .hero .bg3,
+    .hero .bg4,
+    .hero .bg5,
+    .hero .bg6,
+    .hero .bg7,
+    .hero .bg8{
+        max-width: 18rem;
+        max-height: 18rem;
+    }
+    .nav__item{
+        display: none;
+    }
+    .nav__item-toggler {
+        display: block;
+        font-size: 18px;
+        padding: 5px;
+        background-color: #0A61F7;
+        border-radius: 50%;
+    }
+    .nav__link-toggler {
+            color: #fff;
+    }
+    .team{
+        padding: 80px 0;
+    }
+.team-title{
+    margin-bottom: 40px;
+}
+.team__team-block{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team__card{
+    max-width: 45%;
+}
+.infocom__inner{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.infocom__content{
+    text-align: center;
+}
+.infocom__banner{
+    display: flex; 
+    gap: 40px;
+
+}
+  .mission__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .investors__banners img{
+    display: block;
+  }
+  .investors__banners{
+flex-wrap: wrap;  
+gap: 40px;
+}
+}
+
+/* 📌 Планшеты в вертикальной ориентации */
+@media (max-width: 870px) {
+    .hero .bg1,
+        .hero .bg2,
+        .hero .bg3,
+        .hero .bg4,
+        .hero .bg5,
+        .hero .bg6,
+        .hero .bg7,
+        .hero .bg8 {
+            max-width: 15rem;
+            max-height: 15rem;
+        }
+                .button--nav-btn {
+                    padding: 12px 18px;
+                    font-size: 12px;
+                }
+                .customer__logo{
+                    flex-wrap: wrap;
+                }
+            .hero{
+                margin-bottom: 0;
+            }
+            .infocom{
+                padding: 80px 0;
+            }
+            .customers{
+                padding: 80px 0 120px;
+            }
+            .investors{
+                padding: 90px 0;
+            }
+}
+/* 📌 Планшеты в вертикальной ориентации */
+@media (max-width: 768px) {
+    .hero .bg1,
+        .hero .bg2,
+        .hero .bg3,
+        .hero .bg4,
+        .hero .bg5,
+        .hero .bg6,
+        .hero .bg7,
+        .hero .bg8 {
+            max-width: 13rem;
+            max-height: 13rem;
+        }
+            .autorization-btns{
+                gap: 14px;
+            }
+    }
+
+
+/* 📌 Смартфоны (большие) */
+@media (max-width: 600px) {
+    .hero .bg1,
+        .hero .bg2,
+        .hero .bg3,
+        .hero .bg4,
+        .hero .bg5,
+        .hero .bg6,
+        .hero .bg7,
+        .hero .bg8 {
+            max-width: 11rem;
+            max-height: 11rem;
+        }
+        .hero .title--hero{
+        font-size: 42px;
+        }
+        .hero .button--hero{
+            padding: 16px 32px;
+        }
+        .infocom__banner{
+            flex-direction: column;
+        }
+}
+/* 📌 Смартфоны (большие) */
+@media (max-width: 550px) {
+    .hero .bg1,
+        .hero .bg2,
+        .hero .bg3,
+        .hero .bg4,
+        .hero .bg5,
+        .hero .bg6,
+        .hero .bg7,
+        .hero .bg8 {
+            max-width: 9rem;
+            max-height: 9rem;
+        }
+        .nav {
+            margin-right: auto;
+            padding-left: 18px;
+        }
+    }
+
+/* 📌 Смартфоны (маленькие) */
+@media (max-width: 480px) {
+        .hero .bg1,
+            .hero .bg2,
+            .hero .bg3,
+            .hero .bg4,
+            .hero .bg5,
+            .hero .bg6,
+            .hero .bg7,
+            .hero .bg8 {
+                max-width: 7rem;
+                max-height: 7rem;
+            }
+    .autorization-btns{
+        display: none;
+    }
+        .nav {
+            margin-right: 0;
+        }
+}
+
+/* 📌 Очень маленькие экраны (iPhone SE, старые телефоны) */
+@media (max-width: 375px) {
+    /* Стили для экранов до 375px */
+}
+
+/* 📌 Миниатюрные экраны (самые маленькие) */
+@media (max-width: 320px) {
+    /* Стили для экранов до 320px */
+}

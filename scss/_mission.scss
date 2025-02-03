@@ -1,0 +1,74 @@
+.mission {
+
+    // .mission__inner
+
+    &__inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    &__wrapper{
+    }
+    // .mission__content
+
+    &__content {}
+
+    // .mission__stats
+
+    &__stats {
+        display: flex;
+        gap: 54px
+    }
+
+    // .mission__stats-block
+
+    &__stats-block {
+        max-width: 520px;
+
+    }
+
+    // .mission__stats-text
+
+    &__stats-text {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 123%;
+        color: #1c202b;
+        margin-bottom: 16px;
+        max-width: 240px;
+    }
+    &__stats-text span{
+        color: #0a61f7;;
+    }
+
+    // .mission__image
+
+    &__image {}
+
+    // .mission__img
+
+    &__img {}
+}
+
+.container {}
+
+.subtitle {}
+
+.title {}
+
+.mission-subtitle{
+    margin-bottom: 30px;
+}
+.mission-title{
+    margin-bottom: 38px;
+    font-weight: 700;
+        font-size: 39px;
+        line-height: 123%;
+        letter-spacing: 0.02em;
+        color: #1c202b;
+        max-width: 450px;
+}
+.mission-title span{
+    color: #0a61f7;
+}
